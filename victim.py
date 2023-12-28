@@ -2,7 +2,7 @@ import socket
 
 def start_client():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    host = '85.148.134.70'
+    host = 'your ip here'
     port = 514
 
     client_socket.connect((host, port))
